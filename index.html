@@ -357,6 +357,8 @@
         }
 
         @media (max-width: 768px) {
+            /* 手機端隱藏左上角品牌標誌，避免與中央主標題爭搶視線 */
+            .header-brand { display: none !important; }
             header { padding: 38px 18px 32px; }
             header h1 { font-size: 28px; }
             .wrapper { margin: 20px auto; padding: 0 14px; gap: 14px; }
